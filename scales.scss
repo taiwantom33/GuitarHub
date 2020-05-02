@@ -1,0 +1,35 @@
+@media (max-width: 500px){
+ .Image img{
+   display:none;
+ }
+}
+
+$header: Blue;
+#links{
+  color: $header
+}
+
+%Formula {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: lightgray;
+  border: 1px solid black;
+  width:200px;
+}
+.Image {
+  h4 {
+    font-weight: bold;
+    color: $header;
+  }
+}
+#Pentatonic {
+  @extend %Formula;
+  width: 200px;
+}
+#Blues {
+  @extend %Formula;
+  span {
+    color: Blue;
+  }
+  width:230px;
+}

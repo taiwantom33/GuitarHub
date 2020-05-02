@@ -1,0 +1,28 @@
+@media (max-width: 500px) {
+  .Image img {
+    display: none;
+  }
+}
+#links {
+  color: Blue;
+}
+#Pentatonic, #Blues {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: lightgray;
+  border: 1px solid black;
+  width: 200px;
+}
+.Image h4 {
+  font-weight: bold;
+  color: Blue;
+}
+#Pentatonic {
+  width: 200px;
+}
+#Blues {
+  width: 230px;
+}
+#Blues span {
+  color: Blue;
+}
